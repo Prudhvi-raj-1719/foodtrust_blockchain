@@ -1,0 +1,17 @@
+logging:
+  level: info
+  format: "%{time:2006-01-02 15:04:05.000 MST} [%{level}] %{message}"
+peer:
+  networkId: dev
+  profile:
+    enabled: true
+vm:
+  endpoint: unix:///host/var/run/docker.sock
+chaincode:
+  externalBuilders: []
+  system:
+    cscc: enabled
+    lscc: enabled
+    escc: enabled
+    vscc: enabled
+    qscc: enabled

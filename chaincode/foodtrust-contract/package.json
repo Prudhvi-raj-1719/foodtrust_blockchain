@@ -1,0 +1,14 @@
+{
+  "name": "foodtrust-contract",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "echo 'no lint yet'",
+    "test": "node -e \"console.log('no tests yet')\""
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.0",
+    "fabric-shim": "^2.5.0"
+  }
+}
